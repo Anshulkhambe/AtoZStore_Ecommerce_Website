@@ -19,7 +19,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 # Replace with your actual JAR name
-COPY --from=builder /app/target/AtoZStore_Backend-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=builder /app/target/AtoZStore-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 ENV PORT=8080
