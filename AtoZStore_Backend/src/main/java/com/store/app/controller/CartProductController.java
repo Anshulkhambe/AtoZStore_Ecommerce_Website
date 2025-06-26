@@ -21,7 +21,7 @@ import com.store.app.service.CartService;
 
 @RestController
 @RequestMapping("cart")
-@CrossOrigin( "http://localhost:4200")
+@CrossOrigin( "https://atozstore-ecommerce-website-tcky.onrender.com")
 public class CartProductController {
 	  
 	@Autowired
