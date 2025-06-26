@@ -11,7 +11,7 @@ import Swal from 'sweetalert2';
 })
 export class DelieverypartnerregistrationComponent {
 
-  private baseUrl:any = "https://atozstore-ecommerce-website-backend.onrender.com/delievery";
+  private baseUrl:any = "https://atozstore-ecommerce-website-backend.onrender.com/delivery";
 
   isSubmited:boolean=false;
 
