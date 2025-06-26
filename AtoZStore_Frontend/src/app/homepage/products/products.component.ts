@@ -44,7 +44,7 @@ export class ProductsComponent {
 
 
 
-  //private baseUrl:any = 'http://localhost:8081/product/getProductByCategory';
+  //private baseUrl:any = 'https://atozstore-ecommerce-website-backend.onrender.com/product/getProductByCategory';
 
 
    baseurl="http://localhost:8081"
