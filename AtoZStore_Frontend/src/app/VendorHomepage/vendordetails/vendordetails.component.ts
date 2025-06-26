@@ -64,7 +64,7 @@ export class VendordetailsComponent {
 
   // You need to provide a URL for the HTTP request
   fetchData() {
-    this.http.get(`http://localhost:8081/vendor/getProducts/${this.vendor.username}`).subscribe
+    this.http.get(`https://atozstore-ecommerce-website-backend.onrender.com/vendor/getProducts/${this.vendor.username}`).subscribe
     ((data: any) => {
 this.products=data;
 console.log(this.products)
