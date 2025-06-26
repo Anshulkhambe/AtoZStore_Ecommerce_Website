@@ -43,7 +43,7 @@ export class LoginComponent {
 
 
 
-this.http.post("http://localhost:8081/user/loginuser",this.login.value).subscribe(
+this.http.post("https://atozstore-ecommerce-website-backend.onrender.com/user/loginuser",this.login.value).subscribe(
   (response:any) =>{
     if(response!=null){
 
