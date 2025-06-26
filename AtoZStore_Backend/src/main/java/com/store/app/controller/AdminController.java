@@ -18,7 +18,7 @@ import com.store.app.service.VendorService;
 
 @RestController
 @RequestMapping("/admin")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://atozstore-ecommerce-website-tcky.onrender.com")
 public class AdminController 
 {
 	@Value("${usernm}")
