@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrl: './filters.component.css'
 })
 export class FiltersComponent {
-  backendUrl = 'http://localhost:8881';
+  backendUrl = 'https://atozstore-ecommerce-website-backend.onrender.com';
   products: any[] = [];
   category: string = '';
   genFinal = ["Men", "Women","Kids",""];
