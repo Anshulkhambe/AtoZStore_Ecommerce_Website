@@ -19,7 +19,7 @@ export class CartpageComponent {
 
 
 
-  baseurl="http://localhost:8081"
+  baseurl="https://atozstore-ecommerce-website-backend.onrender.com"
   constructor(private http:HttpClient,private router:Router,private cartService: CartServiceService){
   this.user=sessionStorage.getItem('user');
   this.user=JSON.parse(this.user);
