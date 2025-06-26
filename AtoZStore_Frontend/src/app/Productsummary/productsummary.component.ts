@@ -25,7 +25,7 @@ export class ProductsummaryComponent implements OnInit {
   sum: number = 0;
 
   
-   baseUrl: any = "http://localhost:8081";
+   baseUrl: any = "https://atozstore-ecommerce-website-backend.onrender.com";
   addressForm!: FormGroup;
   selectedAddressOption:any="";
 
