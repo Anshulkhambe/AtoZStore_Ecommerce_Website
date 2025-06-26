@@ -12,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
 export class SearchproductComponent {
   searchprod:any="";
   searchedProducts:any=[];
-  baseurl="http://localhost:8081";
+  baseurl="https://atozstore-ecommerce-website-backend.onrender.com";
   isLoading:boolean=true;
   noProductFound:boolean=false;
   constructor(private route: ActivatedRoute,private http:HttpClient,private router:Router,public dialog: MatDialog) {
