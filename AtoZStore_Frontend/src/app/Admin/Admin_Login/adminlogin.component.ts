@@ -10,7 +10,7 @@ import Swal from 'sweetalert2';
 })
 export class AdminloginComponent {
 
-  private baseUrl:any = "http://localhost:8081";
+  private baseUrl:any = "https://atozstore-ecommerce-website-backend.onrender.com";
   username: string = '';
   password: string = '';
 
