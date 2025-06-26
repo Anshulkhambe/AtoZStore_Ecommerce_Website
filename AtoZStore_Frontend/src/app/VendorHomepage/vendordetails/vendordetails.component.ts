@@ -72,7 +72,7 @@ this.product=this.products[0];
     });
   }
   deleteProduct(productid:any){
-    this.http.delete(`http://localhost:8081/product/deleteProductById/${productid}`).subscribe(
+    this.http.delete(`https://atozstore-ecommerce-website-backend.onrender.com/product/deleteProductById/${productid}`).subscribe(
       (response:any)=>{
             this.fetchData()
       },
