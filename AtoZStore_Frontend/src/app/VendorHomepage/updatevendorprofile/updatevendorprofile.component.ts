@@ -59,7 +59,7 @@ export class UpdatevendorprofileComponent {
 
 
          saveUserInfo() {
-          this.http.post("http://localhost:8081/vendor/update",this.vendor).subscribe(
+          this.http.post("https://atozstore-ecommerce-website-backend.onrender.com/vendor/update",this.vendor).subscribe(
            (response:any)=>{
              console.log(response);
 
