@@ -30,7 +30,7 @@ import com.store.app.service.CustomerService;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin( "http://localhost:4200")
+@CrossOrigin( "https://atozstore-ecommerce-website-tcky.onrender.com")
 public class CustomerController 
 {
 	
