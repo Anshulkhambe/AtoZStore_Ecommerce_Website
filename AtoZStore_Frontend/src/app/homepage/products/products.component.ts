@@ -47,7 +47,7 @@ export class ProductsComponent {
   //private baseUrl:any = 'https://atozstore-ecommerce-website-backend.onrender.com/product/getProductByCategory';
 
 
-   baseurl="http://localhost:8081"
+   baseurl="https://atozstore-ecommerce-website-backend.onrender.com"
    constructor(private http:HttpClient,private router:Router,private route: ActivatedRoute,public dialog: MatDialog){
 
     for(let i of this.products){
