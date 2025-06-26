@@ -10,7 +10,7 @@ import Swal from 'sweetalert2';
 })
 export class AddproductComponent {
 
-  private baseUrl:any = 'http://localhost:8081/product/newproduct';
+  private baseUrl:any = 'https://atozstore-ecommerce-website-backend.onrender.com/product/newproduct';
   vendor:any="";
   //dynamically add fields this is correct logic code
   selectedFile!: any;
