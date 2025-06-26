@@ -20,7 +20,7 @@ import com.store.app.service.OrderDetailsService;
 
 @RestController
 @RequestMapping("/delivery")
-@CrossOrigin( "http://localhost:4200")
+@CrossOrigin( "https://atozstore-ecommerce-website-tcky.onrender.com")
 public class DeliveryPartnerController {
 	
 	@Autowired
