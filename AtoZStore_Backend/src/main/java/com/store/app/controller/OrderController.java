@@ -36,7 +36,7 @@ import com.store.app.service.OrderDetailsService;
 
 @RestController
 @RequestMapping("/order")
-@CrossOrigin( "http://localhost:4200")
+@CrossOrigin( "https://atozstore-ecommerce-website-tcky.onrender.com")
 public class OrderController {
 	
 	@Autowired
